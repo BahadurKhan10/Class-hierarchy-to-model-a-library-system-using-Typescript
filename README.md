@@ -1,2 +1,27 @@
 # Class-hierarchy-to-model-a-library-system-using-Typescript
 Class hierarchy to model a library system using Typescript
+Sure, here's an assignment question for TypeScript:
+
+Create a TypeScript class hierarchy to model a library system:
+
+Start by creating an abstract class called Item that will serve as the base class for all types of items in the library system.
+
+Define instance variables in the Item class to store common properties for all items, such as title, author, publication year, and available.
+
+Create a constructor in the Item class that takes in these properties as parameters and initializes them.
+
+Define accessor methods (getters) for the title, author, publication year, and available instance variables in the Item class.
+
+Define a mutator method (setter) for the available instance variable in the Item class.
+
+Define an abstract method called loanPeriod in the Item class that will be implemented by each subclass to provide the loan period for that particular type of item.
+
+Define two methods in the Item class: loan() and returnItem(). The loan() method should check if the item is already on loan and provide a message to the user accordingly. If the item is available, it should set the available instance variable to false. The returnItem() method should check if the item is on loan and provide a message to the user accordingly. 
+If the item has been loaned, it should set the available instance variable to true.
+
+Create subclasses of Item for each type of item in the library system (e.g. Book, DVD, CD). 
+Each subclass should implement the loanPeriod method to provide the loan period for that type of item.
+
+Define additional instance variables and methods in the subclasses as needed to model the specific characteristics of each type of item.
+
+In the main program, create instances of each type of item and test the loan() and returnItem() methods to make sure they work as expected.
