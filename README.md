@@ -1,6 +1,6 @@
 # Class-hierarchy-to-model-a-library-system-using-Typescript
 Class hierarchy to model a library system using Typescript
-Sure, here's an assignment question for TypeScript:
+
 
 Create a TypeScript class hierarchy to model a library system:
 
